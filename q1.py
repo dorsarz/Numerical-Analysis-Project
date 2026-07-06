@@ -25,4 +25,4 @@ for i in range(len(x_pts) - 1):
     poly_standard = Poly(expr.expand(), X)
     poly_rounded = Poly([round(float(coef), 4) for coef in poly_standard.all_coeffs()], X)
     
-    print(f"Interval [{x_pts[i]}, {x_pts[i+1]}]: S_{i}(X) = {poly_rounded.as_expr()}")
+    print(f"Interval [{x_pts[i]}, {x_pts[i+1]}]: S_{i}(X) = {poly_rounded.as_expr()}") 
