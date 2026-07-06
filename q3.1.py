@@ -17,4 +17,4 @@ integral_simpson = simpson(y, x)
 
 print("--- محاسبه انتگرال با روش‌های عددی ---")
 print(f"روش ذوزنقه‌ای: {integral_trapezoidal:.6f}")
-print(f"روش سیمسون: {integral_simpson:.6f}")
+print(f"روش سیمسون: {integral_simpson:.6f}") 
